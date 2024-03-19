@@ -7,13 +7,13 @@
 
 import Foundation
 
-class ReffOnUsuario {
-    var idUsuario: Int?
-    var nome: String?
-    var email: String?
-    var senha: String?
+class Usuario : Codable {
+    var idUsuario: Int
+    var nome: String
+    var email: String
+    var senha: String
 
-    init(idUsuario: Int?, nome: String?, email: String?, senha: String?) {
+    init(idUsuario: Int, nome: String, email: String, senha: String) {
         self.idUsuario = idUsuario
         self.nome = nome
         self.email = email

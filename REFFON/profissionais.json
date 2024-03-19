@@ -1,0 +1,402 @@
+[
+  {
+    "idUsuario": 1,
+    "nome": "Nathan Ramos",
+    "email": "nathan.ramos@email.com",
+    "senha": "senha01",
+    "idProfissional": 201,
+    "tempoProfissao": 5,
+    "tipoServico": "Encanador",
+    "avaliacao": 5
+  },
+  {
+    "idUsuario": 2,
+    "nome": "Dr. Joaquim Freitas",
+    "email": "joaquim.freitas@email.com",
+    "senha": "senha02",
+    "idProfissional": 202,
+    "tempoProfissao": 8,
+    "tipoServico": "Encanador",
+    "avaliacao": 1
+  },
+  {
+    "idUsuario": 3,
+    "nome": "Enzo Gabriel Campos",
+    "email": "enzo.campos@email.com",
+    "senha": "senha03",
+    "idProfissional": 203,
+    "tempoProfissao": 10,
+    "tipoServico": "Encanador",
+    "avaliacao": 2
+  },
+  {
+    "idUsuario": 4,
+    "nome": "Cauê Mendes",
+    "email": "caue.mendes@email.com",
+    "senha": "senha04",
+    "idProfissional": 204,
+    "tempoProfissao": 3,
+    "tipoServico": "Encanador",
+    "avaliacao": 2
+  },
+  {
+    "idUsuario": 5,
+    "nome": "Ana Sophia Almeida",
+    "email": "ana.almeida@email.com",
+    "senha": "senha05",
+    "idProfissional": 205,
+    "tempoProfissao": 7,
+    "tipoServico": "Encanador",
+    "avaliacao": 3
+  },
+  {
+    "idUsuario": 6,
+    "nome": "Felipe Novaes",
+    "email": "felipe.novaes@email.com",
+    "senha": "senha06",
+    "idProfissional": 206,
+    "tempoProfissao": 2,
+    "tipoServico": "Encanador",
+    "avaliacao": 3
+  },
+  {
+    "idUsuario": 7,
+    "nome": "Eloah da Paz",
+    "email": "eloah.paz@email.com",
+    "senha": "senha07",
+    "idProfissional": 207,
+    "tempoProfissao": 9,
+    "tipoServico": "Encanador",
+    "avaliacao": 2
+  },
+  {
+    "idUsuario": 8,
+    "nome": "André Pereira",
+    "email": "andre.pereira@email.com",
+    "senha": "senha08",
+    "idProfissional": 208,
+    "tempoProfissao": 6,
+    "tipoServico": "Encanador",
+    "avaliacao": 1
+  },
+  {
+    "idUsuario": 9,
+    "nome": "Miguel Nunes",
+    "email": "miguel.nunes@email.com",
+    "senha": "senha09",
+    "idProfissional": 209,
+    "tempoProfissao": 11,
+    "tipoServico": "Encanador",
+    "avaliacao": 2
+  },
+  {
+    "idUsuario": 10,
+    "nome": "Juan Ribeiro",
+    "email": "juan.ribeiro@email.com",
+    "senha": "senha10",
+    "idProfissional": 210,
+    "tempoProfissao": 4,
+    "tipoServico": "Encanador",
+    "avaliacao": 5
+  },
+  {
+    "idUsuario": 11,
+    "nome": "Ian Jesus",
+    "email": "ian.jesus@email.com",
+    "senha": "senha11",
+    "idProfissional": 211,
+    "tempoProfissao": 6,
+    "tipoServico": "Pintor",
+    "avaliacao": 4
+  },
+  {
+    "idUsuario": 12,
+    "nome": "Sra. Ana Lívia Jesus",
+    "email": "analivia.jesus@email.com",
+    "senha": "senha12",
+    "idProfissional": 212,
+    "tempoProfissao": 4,
+    "tipoServico": "Pintor",
+    "avaliacao": 4
+  },
+  {
+    "idUsuario": 13,
+    "nome": "Camila Viana",
+    "email": "camila.viana@email.com",
+    "senha": "senha13",
+    "idProfissional": 213,
+    "tempoProfissao": 8,
+    "tipoServico": "Pintor",
+    "avaliacao": 3
+  },
+  {
+    "idUsuario": 14,
+    "nome": "Rafael da Mata",
+    "email": "rafael.mata@email.com",
+    "senha": "senha14",
+    "idProfissional": 214,
+    "tempoProfissao": 5,
+    "tipoServico": "Pintor",
+    "avaliacao": 2
+  },
+  {
+    "idUsuario": 15,
+    "nome": "Luiz Gustavo Silveira",
+    "email": "luizgustavo.silveira@email.com",
+    "senha": "senha15",
+    "idProfissional": 215,
+    "tempoProfissao": 2,
+    "tipoServico": "Pintor",
+    "avaliacao": 4
+  },
+  {
+    "idUsuario": 16,
+    "nome": "Paulo das Neves",
+    "email": "paulo.neves@email.com",
+    "senha": "senha16",
+    "idProfissional": 216,
+    "tempoProfissao": 7,
+    "tipoServico": "Pintor",
+    "avaliacao": 5
+  },
+  {
+    "idUsuario": 17,
+    "nome": "Srta. Esther Rodrigues",
+    "email": "esther.rodrigues@email.com",
+    "senha": "senha17",
+    "idProfissional": 217,
+    "tempoProfissao": 3,
+    "tipoServico": "Pintor",
+    "avaliacao": 5
+  },
+  {
+    "idUsuario": 18,
+    "nome": "Elisa Melo",
+    "email": "elisa.melo@email.com",
+    "senha": "senha18",
+    "idProfissional": 218,
+    "tempoProfissao": 9,
+    "tipoServico": "Pintor",
+    "avaliacao": 5
+  },
+  {
+    "idUsuario": 19,
+    "nome": "Sra. Ana Luiza Jesus",
+    "email": "analuisa.jesus@email.com",
+    "senha": "senha19",
+    "idProfissional": 219,
+    "tempoProfissao": 10,
+    "tipoServico": "Pintor",
+    "avaliacao": 2
+  },
+  {
+    "idUsuario": 20,
+    "nome": "Sr. Enzo Gabriel da Cruz",
+    "email": "enzo.cruz@email.com",
+    "senha": "senha20",
+    "idProfissional": 220,
+    "tempoProfissao": 1,
+    "tipoServico": "Pintor",
+    "avaliacao": 1
+  },
+  {
+    "idUsuario": 21,
+    "nome": "Gustavo Henrique Caldeira",
+    "email": "gustavo.caldeira@email.com",
+    "senha": "senha21",
+    "idProfissional": 221,
+    "tempoProfissao": 5,
+    "tipoServico": "Eletricista",
+    "avaliacao": 3
+  },
+  {
+    "idUsuario": 22,
+    "nome": "Bruna Nascimento",
+    "email": "bruna.nascimento@email.com",
+    "senha": "senha22",
+    "idProfissional": 222,
+    "tempoProfissao": 7,
+    "tipoServico": "Eletricista",
+    "avaliacao": 1
+  },
+  {
+    "idUsuario": 23,
+    "nome": "Helena Fernandes",
+    "email": "helena.fernandes@email.com",
+    "senha": "senha23",
+    "idProfissional": 223,
+    "tempoProfissao": 3,
+    "tipoServico": "Eletricista",
+    "avaliacao": 4
+  },
+  {
+    "idUsuario": 24,
+    "nome": "Carlos Eduardo Farias",
+    "email": "carlos.farias@email.com",
+    "senha": "senha24",
+    "idProfissional": 224,
+    "tempoProfissao": 8,
+    "tipoServico": "Eletricista",
+    "avaliacao": 5
+  },
+  {
+    "idUsuario": 25,
+    "nome": "Davi Ribeiro",
+    "email": "davi.ribeiro@email.com",
+    "senha": "senha25",
+    "idProfissional": 225,
+    "tempoProfissao": 10,
+    "tipoServico": "Eletricista",
+    "avaliacao": 4
+  },
+  {
+    "idUsuario": 26,
+    "nome": "Sabrina Santos",
+    "email": "sabrina.santos@email.com",
+    "senha": "senha26",
+    "idProfissional": 226,
+    "tempoProfissao": 6,
+    "tipoServico": "Eletricista",
+    "avaliacao": 4
+  },
+  {
+    "idUsuario": 27,
+    "nome": "Caio Vieira",
+    "email": "caio.vieira@email.com",
+    "senha": "senha27",
+    "idProfissional": 227,
+    "tempoProfissao": 9,
+    "tipoServico": "Eletricista",
+    "avaliacao": 4
+  },
+  {
+    "idUsuario": 28,
+    "nome": "Nicole Pires",
+    "email": "nicole.pires@email.com",
+    "senha": "senha28",
+    "idProfissional": 228,
+    "tempoProfissao": 2,
+    "tipoServico": "Eletricista",
+    "avaliacao": 1
+  },
+  {
+    "idUsuario": 29,
+    "nome": "Maria Cecília Freitas",
+    "email": "maria.freitas@email.com",
+    "senha": "senha29",
+    "idProfissional": 229,
+    "tempoProfissao": 4,
+    "tipoServico": "Eletricista",
+    "avaliacao": 4
+  },
+  {
+    "idUsuario": 30,
+    "nome": "Sra. Alícia Caldeira",
+    "email": "alicia.caldeira@email.com",
+    "senha": "senha30",
+    "idProfissional": 230,
+    "tempoProfissao": 11,
+    "tipoServico": "Eletricista",
+    "avaliacao": 5
+  },
+  {
+    "idUsuario": 31,
+    "nome": "Maysa Lima",
+    "email": "maysa.lima@email.com",
+    "senha": "senha31",
+    "idProfissional": 241,
+    "tempoProfissao": 5,
+    "tipoServico": "Faxineiro",
+    "avaliacao": 4
+  },
+  {
+    "idUsuario": 32,
+    "nome": "Joana da Cruz",
+    "email": "joana.cruz@email.com",
+    "senha": "senha32",
+    "idProfissional": 242,
+    "tempoProfissao": 3,
+    "tipoServico": "Faxineiro",
+    "avaliacao": 1
+  },
+  {
+    "idUsuario": 33,
+    "nome": "João Felipe Costa",
+    "email": "joao.costa@email.com",
+    "senha": "senha33",
+    "idProfissional": 243,
+    "tempoProfissao": 7,
+    "tipoServico": "Faxineiro",
+    "avaliacao": 3
+  },
+  {
+    "idUsuario": 34,
+    "nome": "Mirella Melo",
+    "email": "mirella.melo@email.com",
+    "senha": "senha34",
+    "idProfissional": 244,
+    "tempoProfissao": 8,
+    "tipoServico": "Faxineiro",
+    "avaliacao": 1
+  },
+  {
+    "idUsuario": 35,
+    "nome": "Srta. Maria Alice Pires",
+    "email": "maria.pires@email.com",
+    "senha": "senha35",
+    "idProfissional": 245,
+    "tempoProfissao": 2,
+    "tipoServico": "Faxineiro",
+    "avaliacao": 4
+  },
+  {
+    "idUsuario": 36,
+    "nome": "Davi Luiz Nunes",
+    "email": "davi.nunes@email.com",
+    "senha": "senha36",
+    "idProfissional": 246,
+    "tempoProfissao": 4,
+    "tipoServico": "Faxineiro",
+    "avaliacao": 2
+  },
+  {
+    "idUsuario": 37,
+    "nome": "Emanuel Ferreira",
+    "email": "emanuel.ferreira@email.com",
+    "senha": "senha37",
+    "idProfissional": 247,
+    "tempoProfissao": 9,
+    "tipoServico": "Faxineiro",
+    "avaliacao": 1
+  },
+  {
+    "idUsuario": 38,
+    "nome": "Levi Rodrigues",
+    "email": "levi.rodrigues@email.com",
+    "senha": "senha38",
+    "idProfissional": 248,
+    "tempoProfissao": 6,
+    "tipoServico": "Faxineiro",
+    "avaliacao": 3
+  },
+  {
+    "idUsuario": 39,
+    "nome": "Sabrina Dias",
+    "email": "sabrina.dias@email.com",
+    "senha": "senha39",
+    "idProfissional": 249,
+    "tempoProfissao": 10,
+    "tipoServico": "Faxineiro",
+    "avaliacao": 5
+  },
+  {
+    "idUsuario": 40,
+    "nome": "Miguel Sales",
+    "email": "miguel.sales@email.com",
+    "senha": "senha40",
+    "idProfissional": 250,
+    "tempoProfissao": 1,
+    "tipoServico": "Faxineiro",
+    "avaliacao": 5
+  }
+]

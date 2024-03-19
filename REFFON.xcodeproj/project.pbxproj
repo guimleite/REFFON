@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		942C5BF62BA1395A0069E39E /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942C5BF52BA1395A0069E39E /* ChatViewController.swift */; };
+		944577DD2BA8F87D00603C62 /* profissionais.json in Resources */ = {isa = PBXBuildFile; fileRef = 944577DC2BA8F87D00603C62 /* profissionais.json */; };
 		945301932BA0F2CB002092DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 945301912BA0F2CB002092DD /* LaunchScreen.storyboard */; };
 		948202902B9FCED300287D9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9482028F2B9FCED300287D9C /* AppDelegate.swift */; };
 		948202922B9FCED300287D9C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948202912B9FCED300287D9C /* SceneDelegate.swift */; };
@@ -16,13 +17,19 @@
 		948202992B9FCED500287D9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 948202982B9FCED500287D9C /* Assets.xcassets */; };
 		948202A42B9FE98B00287D9C /* PerfilProfissionalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948202A32B9FE98B00287D9C /* PerfilProfissionalViewController.swift */; };
 		948202A62B9FEE6F00287D9C /* PesquisaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948202A52B9FEE6F00287D9C /* PesquisaViewController.swift */; };
-		94ACBA872BA25E7800AD5AC1 /* REFFON.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 94ACBA852BA25E7800AD5AC1 /* REFFON.xcdatamodeld */; };
+		94A14FE72BA77D3C009A14D9 /* Profissional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A14FE62BA77D3C009A14D9 /* Profissional.swift */; };
+		94A14FE92BA77D9F009A14D9 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A14FE82BA77D9F009A14D9 /* Usuario.swift */; };
+		94A14FED2BA7856C009A14D9 /* UIViewController+CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A14FEC2BA7856C009A14D9 /* UIViewController+CoreData.swift */; };
+		94A150372BA78964009A14D9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94A150362BA78964009A14D9 /* CoreData.framework */; };
+		94A150392BA79FF1009A14D9 /* ProfissionalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A150382BA79FF1009A14D9 /* ProfissionalTableViewCell.swift */; };
+		94ACBA872BA25E7800AD5AC1 /* ReffOn.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 94ACBA852BA25E7800AD5AC1 /* ReffOn.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		94140A8A2BA90FA1003D5AD5 /* REFFON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = REFFON.app; path = "/Users/user250954/Documents/FIAP/Apps/REFFON/build/Debug-iphoneos/REFFON.app"; sourceTree = "<absolute>"; };
 		942C5BF52BA1395A0069E39E /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		944577DC2BA8F87D00603C62 /* profissionais.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = profissionais.json; sourceTree = "<group>"; };
 		945301922BA0F2CB002092DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9482028C2B9FCED300287D9C /* REFFON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = REFFON.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9482028F2B9FCED300287D9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		948202912B9FCED300287D9C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		948202932B9FCED300287D9C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -31,7 +38,12 @@
 		9482029D2B9FCED500287D9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		948202A32B9FE98B00287D9C /* PerfilProfissionalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilProfissionalViewController.swift; sourceTree = "<group>"; };
 		948202A52B9FEE6F00287D9C /* PesquisaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PesquisaViewController.swift; sourceTree = "<group>"; };
-		94ACBA862BA25E7800AD5AC1 /* REFFON.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = REFFON.xcdatamodel; sourceTree = "<group>"; };
+		94A14FE62BA77D3C009A14D9 /* Profissional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profissional.swift; sourceTree = "<group>"; };
+		94A14FE82BA77D9F009A14D9 /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+		94A14FEC2BA7856C009A14D9 /* UIViewController+CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+CoreData.swift"; sourceTree = "<group>"; };
+		94A150362BA78964009A14D9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		94A150382BA79FF1009A14D9 /* ProfissionalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfissionalTableViewCell.swift; sourceTree = "<group>"; };
+		94ACBA862BA25E7800AD5AC1 /* ReffOn.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ReffOn.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94A150372BA78964009A14D9 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,34 +62,39 @@
 			isa = PBXGroup;
 			children = (
 				9482028E2B9FCED300287D9C /* REFFON */,
-				9482028D2B9FCED300287D9C /* Products */,
+				94A150352BA78964009A14D9 /* Frameworks */,
 			);
-			sourceTree = "<group>";
-		};
-		9482028D2B9FCED300287D9C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				9482028C2B9FCED300287D9C /* REFFON.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		9482028E2B9FCED300287D9C /* REFFON */ = {
 			isa = PBXGroup;
 			children = (
-				942C5BF52BA1395A0069E39E /* ChatViewController.swift */,
+				944577DC2BA8F87D00603C62 /* profissionais.json */,
 				9482028F2B9FCED300287D9C /* AppDelegate.swift */,
 				948202912B9FCED300287D9C /* SceneDelegate.swift */,
 				948202932B9FCED300287D9C /* ViewController.swift */,
+				942C5BF52BA1395A0069E39E /* ChatViewController.swift */,
 				948202A32B9FE98B00287D9C /* PerfilProfissionalViewController.swift */,
 				948202A52B9FEE6F00287D9C /* PesquisaViewController.swift */,
+				94A150382BA79FF1009A14D9 /* ProfissionalTableViewCell.swift */,
+				94A14FEC2BA7856C009A14D9 /* UIViewController+CoreData.swift */,
+				94A14FE62BA77D3C009A14D9 /* Profissional.swift */,
+				94A14FE82BA77D9F009A14D9 /* Usuario.swift */,
 				948202952B9FCED300287D9C /* Main.storyboard */,
 				945301912BA0F2CB002092DD /* LaunchScreen.storyboard */,
 				948202982B9FCED500287D9C /* Assets.xcassets */,
 				9482029D2B9FCED500287D9C /* Info.plist */,
-				94ACBA852BA25E7800AD5AC1 /* REFFON.xcdatamodeld */,
+				94ACBA852BA25E7800AD5AC1 /* ReffOn.xcdatamodeld */,
 			);
 			path = REFFON;
+			sourceTree = "<group>";
+		};
+		94A150352BA78964009A14D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94A150362BA78964009A14D9 /* CoreData.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,7 +114,7 @@
 			);
 			name = REFFON;
 			productName = REFFON;
-			productReference = 9482028C2B9FCED300287D9C /* REFFON.app */;
+			productReference = 94140A8A2BA90FA1003D5AD5 /* REFFON.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -123,7 +141,7 @@
 				Base,
 			);
 			mainGroup = 948202832B9FCED300287D9C;
-			productRefGroup = 9482028D2B9FCED300287D9C /* Products */;
+			productRefGroup = 948202832B9FCED300287D9C;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -140,6 +158,7 @@
 				945301932BA0F2CB002092DD /* LaunchScreen.storyboard in Resources */,
 				948202992B9FCED500287D9C /* Assets.xcassets in Resources */,
 				948202972B9FCED300287D9C /* Main.storyboard in Resources */,
+				944577DD2BA8F87D00603C62 /* profissionais.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,8 +173,12 @@
 				948202902B9FCED300287D9C /* AppDelegate.swift in Sources */,
 				948202A62B9FEE6F00287D9C /* PesquisaViewController.swift in Sources */,
 				948202922B9FCED300287D9C /* SceneDelegate.swift in Sources */,
-				94ACBA872BA25E7800AD5AC1 /* REFFON.xcdatamodeld in Sources */,
+				94A14FE72BA77D3C009A14D9 /* Profissional.swift in Sources */,
+				94A14FE92BA77D9F009A14D9 /* Usuario.swift in Sources */,
+				94ACBA872BA25E7800AD5AC1 /* ReffOn.xcdatamodeld in Sources */,
+				94A14FED2BA7856C009A14D9 /* UIViewController+CoreData.swift in Sources */,
 				942C5BF62BA1395A0069E39E /* ChatViewController.swift in Sources */,
+				94A150392BA79FF1009A14D9 /* ProfissionalTableViewCell.swift in Sources */,
 				948202A42B9FE98B00287D9C /* PerfilProfissionalViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -389,13 +412,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		94ACBA852BA25E7800AD5AC1 /* REFFON.xcdatamodeld */ = {
+		94ACBA852BA25E7800AD5AC1 /* ReffOn.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				94ACBA862BA25E7800AD5AC1 /* REFFON.xcdatamodel */,
+				94ACBA862BA25E7800AD5AC1 /* ReffOn.xcdatamodel */,
 			);
-			currentVersion = 94ACBA862BA25E7800AD5AC1 /* REFFON.xcdatamodel */;
-			path = REFFON.xcdatamodeld;
+			currentVersion = 94ACBA862BA25E7800AD5AC1 /* ReffOn.xcdatamodel */;
+			path = ReffOn.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
