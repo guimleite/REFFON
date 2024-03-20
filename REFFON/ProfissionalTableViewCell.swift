@@ -2,7 +2,7 @@
 //  ProfissionalTableViewCell.swift
 //  REFFON
 //
-//  Created by user250954 on 3/17/24.
+//  Created by Guilherme on 3/17/24.
 //
 
 import UIKit
@@ -18,15 +18,25 @@ class ProfissionalTableViewCell: UITableViewCell {
     @IBOutlet weak var ivStar4: UIImageView!
     @IBOutlet weak var ivStar5: UIImageView!
     
+    weak var delegate: ProfissionalCellDelegate?
+    var profissional: Profissional? //
+    
+    var onButtonTapped: (() -> Void)?
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        btnCard.removeTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
+        btnCard.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+    
+    @objc func buttonTapped() {
+        if let profissional = profissional {
+            delegate?.didTapButton(profissional: profissional)
+        }
     }
+    
+}
 
+protocol ProfissionalCellDelegate: AnyObject {
+    func didTapButton(profissional: Profissional)
 }

@@ -2,11 +2,10 @@
 //  PesquisaViewController.swift
 //  REFFON
 //
-//  Created by user250954 on 3/11/24.
+//  Created by Guilherme on 3/11/24.
 //
 
 import UIKit
-import CoreData
 
 class PesquisaViewController: UIViewController {
             
@@ -21,18 +20,15 @@ class PesquisaViewController: UIViewController {
         loadProfissionais()
         profissionalTable.delegate = self
         profissionalTable.dataSource = self
-        
-        profissionalTable.estimatedRowHeight = 100
-        profissionalTable.rowHeight = UITableView.automaticDimension
     }
     
-    override func prepare(for perfilSegue: UIStoryboardSegue, sender: Any?) {
-        if perfilSegue.identifier == "perfilSegue" {
-            if let destinoVC = perfilSegue.destination as? PerfilProfissionalViewController {
-                destinoVC.profissional = profissionalSelecionado
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "perfilSegue" {
+            if let destinoVC = segue.destination as? PerfilProfissionalViewController,
+               let profissional = sender as? Profissional { // Recupera o profissional do sender
+                destinoVC.profissional = profissional
             }
         }
-
     }
     
     func loadProfissionais(){
@@ -67,9 +63,6 @@ class PesquisaViewController: UIViewController {
 
 extension PesquisaViewController: UITableViewDelegate{
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        profissionalSelecionado = profissionais[indexPath.row]
-        
-        performSegue(withIdentifier: "perfilSegue", sender: self)
     }
 }
 
@@ -90,22 +83,32 @@ extension PesquisaViewController: UITableViewDataSource{
         
         cell.lbNome.text = profissional.nome
         cell.lbProfissao.text = profissional.tipoServico
+        cell.profissional = profissional
+        cell.delegate = self
         
         let avaliacao = profissional.avaliacao
-            let estrelas = [cell.ivStar1, cell.ivStar2, cell.ivStar3, cell.ivStar4, cell.ivStar5]
+        let estrelas = [cell.ivStar1, cell.ivStar2, cell.ivStar3, cell.ivStar4, cell.ivStar5]
             
-            for (index, estrela) in estrelas.enumerated() {
-                if index < avaliacao {
-                    estrela?.image = UIImage(named: "StarOn")
-                } else {
-                    estrela?.image = UIImage(named: "StarOff")
-                }
+        for (index, estrela) in estrelas.enumerated() {
+            if index < avaliacao {
+                estrela?.image = UIImage(named: "StarOn")
+            } else {
+                estrela?.image = UIImage(named: "StarOff")
             }
+        }
+        
         
         return cell
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return UITableView.automaticDimension
+    }
+}
+
+extension PesquisaViewController: ProfissionalCellDelegate {
+    func didTapButton(profissional: Profissional) {
+        self.profissionalSelecionado = profissional
+        performSegue(withIdentifier: "perfilSegue", sender: profissional) // Use profissional como sender
     }
 }
